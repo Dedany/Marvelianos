@@ -65,4 +65,7 @@ dependencies {
     implementation(libs.hilt.android)
     ksp(libs.hilt.compiler)
 
+    //retrofit
+    implementation(libs.retrofit)
+
 }
