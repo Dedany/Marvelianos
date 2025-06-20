@@ -1,6 +1,7 @@
 plugins {
     id("java-library")
     alias(libs.plugins.jetbrains.kotlin.jvm)
+
 }
 java {
     sourceCompatibility = JavaVersion.VERSION_11
@@ -13,4 +14,8 @@ kotlin {
 }
 dependencies {
     implementation(project(":domain"))
+    implementation(libs.retrofit)
+    implementation(libs.retrofit.converter.kotlinx.serialization)
+    implementation(libs.kotlinx.serialization.json)
+    implementation(libs.okhttp)
 }

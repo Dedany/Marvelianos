@@ -1,5 +1,8 @@
 package com.dedany.domain.repositories
 
+import com.dedany.domain.entities.Character
+
+
 interface CharacterRepository {
 
     suspend fun getCharacterById(id: Int): Character
