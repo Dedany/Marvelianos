@@ -23,3 +23,4 @@ rootProject.name = "Marvelianos"
 include(":app")
 include(":data")
 include(":domain")
+include(":usecase")
